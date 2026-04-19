@@ -1,37 +1,6 @@
-# Core Data Science
-pandas>=2.1.0
-numpy>=1.24.0
-pyspark>=3.5.0
-
-# Visualization
-matplotlib>=3.8.0
-seaborn>=0.13.0
-plotly>=5.17.0
-
-# Machine Learning
-scikit-learn>=1.3.0
-
-# Cloud SDKs (optional - comment out if not using)
-# boto3>=1.28.0
-# azure-storage-blob>=12.19.0
-# google-cloud-storage>=2.10.0
-# google-cloud-bigquery>=3.11.0
-
-# Streaming (optional - comment out if not using)
-# kafka-python>=2.0.2
-
-# Data Validation
-jsonschema>=4.19.0
-
-# Utilities
-python-dotenv>=1.0.0
-requests>=2.31.0
-pyyaml>=6.0.1
-
-# Database (lightweight version)
-psycopg2-binary>=2.9.9
-pymongo>=4.6.0
-redis>=5.0.0
-
-# Streamlit
 streamlit>=1.28.0
+pandas>=2.1.0
+numpy>=1.26.0
+plotly>=5.17.0
+scikit-learn>=1.3.0
+python-dotenv>=1.0.0
