@@ -62,7 +62,8 @@ def generate_sample_data():
     vendors = ['VendorA', 'VendorB', 'VendorC', 'VendorD', 'VendorE']
     cities = ['Mumbai', 'Delhi', 'Bangalore', 'Chennai', 'Kolkata', 'Hyderabad']
     
-    dates = pd.date_range(end=datetime.now(), periods=num_shipments, freq='H')
+    # FIXED: Use 'h' instead of 'H' for hourly frequency in pandas 2.1.0+
+    dates = pd.date_range(end=datetime.now(), periods=num_shipments, freq='h')
     
     shipments_data = {
         'shipment_id': [f'SHP{i:05d}' for i in range(num_shipments)],
