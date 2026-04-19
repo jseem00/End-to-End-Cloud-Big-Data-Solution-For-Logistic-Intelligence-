@@ -1,0 +1,31 @@
+# Simplified Requirements for Windows Installation
+# Core Data Processing
+pandas==2.1.4
+numpy==1.26.2
+pyarrow==14.0.1
+
+# Spark
+pyspark==3.5.0
+
+# Machine Learning
+scikit-learn==1.3.2
+
+# Cloud SDKs
+boto3==1.34.10
+azure-storage-blob==12.19.0
+google-cloud-storage==2.14.0
+
+# Streaming
+kafka-python==2.0.2
+
+# Utilities
+python-dotenv==1.0.0
+requests==2.31.0
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+
+# Visualization
+matplotlib==3.8.2
+seaborn==0.13.0

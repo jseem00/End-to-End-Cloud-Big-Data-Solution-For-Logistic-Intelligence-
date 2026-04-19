@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (large)
+data/raw/**/*.csv
+data/raw/**/*.json
+data/processed/**/*.parquet
+data/processed/**/*.orc
+data/analytics/**/*
+*.parquet
+*.orc
+
+# Logs
+logs/
+*.log
+airflow-*.pid
+airflow-*.err
+airflow-*.out
+
+# Credentials (NEVER commit)
+.env
+.aws/
+credentials.json
+service-account.json
+*.pem
+*.key
+
+# Cloud
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Airflow
+airflow.db
+airflow.cfg
+webserver_config.py
+
+# Models (too large)
+models/**/*.pkl
+models/**/*.h5
+models/**/*.joblib
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Docker
+docker-compose.override.yml
+
+# Dashboards (optional - may want to version these)
+dashboards/*.pbix
+dashboards/*.twbx
+
+# Temp files
+tmp/
+temp/
+*.tmp
